@@ -1,0 +1,13 @@
+{
+	"port": 3000,
+	"mongoose": {
+		"uri": "mongodb://database/mean-docker",
+		"options": {
+			"server": {
+				"socetOptions": {
+					"keppAlive": 1
+				}
+			}
+		}
+	}
+}
